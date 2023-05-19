@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Quiz Thingy :-)</title>
+</head>
+
+<style>
+
+#quizSet{
+    background-color: beige;
+    margin: 15px;
+    padding: 5px;
+
+    
+}
+
+#boinkus{
+    background-color:burlywood;
+    border: 1px solid black;
+    margin:5px;
+
+    
+}
+
+.questions{
+    margin: 8px;
+    border: 1px solid black;
+    background-color:blanchedalmond;
+    padding: 2px;
+}
+
+
+#enter{
+    margin: 5px;
+}
+
+#scoreCount{
+    margin: 8px;
+}
+
+</style>
+
+<body>
+    
+<form id="Quiz">
+    <fieldset id="quizSet">
+        <div id="boinkus">
+            <div id="Q1" class="questions">Question 1: What is the purpose of CSS Regions?
+                <ul id="answers">
+                    <label for="ans1" id="A1">
+                        <input type="radio" name="ans1" id="A1" value="0">To group related sections of code together for easy readability.</p>
+                        <input type="radio" name="ans1" id="B1" value="1" onclick="correct()">To allow content to flow from one predefined box to another.</p>
+                        <input type="radio" name="ans1" id="C1" value="0">To define an area of an image that is clickable, like a link.</p>
+                        <input type="radio" name="ans1" id="D1" value="0">To define a content area on that site that is style-able as a whole.</p>
+                    </label>
+                </ul>
+            </div>
+
+            <div id="Q2" class="questions">Question 2: What is the purpose of a CSS Exclusion?
+                <ul id="answers">
+                    <label for="ans2" id="A2">
+                        <input type="radio" name="ans2" id="A2" value="0">To exclude old code from the CSS file, without deleting it.</p>
+                        <input type="radio" name="ans2" id="B2" value="0">To exclude specified colors from appearing on the site, allowing for a fixed color scheme.</p>
+                        <input type="radio" name="ans2" id="C2" value="1" onclick="correct()">To create an area on the page where the text will automatically wrap and format around.</p>
+                        <input type="radio" name="ans2" id="D2" value="0">To exclude chunks of old content from a document using a strikeout.</p>
+                    </label>
+                </ul>
+            </div>
+
+            <div id="Q3" class="questions">Question 3: How commit arson and get away with it?
+                <ul id="answers">
+                    <label for="ans3" id="A1">
+                        <input type="radio" name="ans3" id="A3" value="-" onclick="correct()">Boinkus.</p>
+                        <input type="radio" name="ans3" id="B3" value="-">Goinkus.</p>
+                        <input type="radio" name="ans3" id="C3" value="-">Set up a pyramid scheme and make the participants do it.</p>
+                        <input type="radio" name="ans3" id="D3" value="-">Do nothing.</p>
+                    </label>
+                </ul>
+            </div>
+
+            <div id="Q4" class="questions">Question 4: How commit arson and get away with it?
+                <ul id="answers">
+                    <label for="ans4" id="A1">
+                        <input type="radio" name="ans4" id="A4" value="-" onclick="correct()">Frame the local orphanage.</p>
+                        <input type="radio" name="ans4" id="B4" value="-" onclick="correct()">Flee the state.</p>
+                        <input type="radio" name="ans4" id="C4" value="-" onclick="correct()">Set up a pyramid scheme and make the participants do it.</p>
+                        <input type="radio" name="ans4" id="D4" value="-" onclick="correct()">Do nothing.</p>
+                    </label>
+                </ul>
+            </div>
+
+            <div id="Q5" class="questions">Question 5: How commit arson and get away with it?
+                <ul id="answers">
+                    <label for="ans5" id="A1">
+                        <input type="radio" name="ans5" id="A5" value="-" onclick="correct()">Frame the local orphanage.</p>
+                        <input type="radio" name="ans5" id="B5" value="-" onclick="correct()">Flee the state.</p>
+                        <input type="radio" name="ans5" id="C5" value="-" onclick="correct()">Set up a pyramid scheme and make the participants do it.</p>
+                        <input type="radio" name="ans5" id="D5" value="-" onclick="correct()">Do nothing.</p>
+                    </label>
+                </ul>
+            </div>
+
+            <div id="Q6" class="questions">Question 6: How commit arson and get away with it?
+                <ul id="answers">
+                    <label for="ans6" id="A1">
+                        <input type="radio" name="ans6" id="A6" value="-" onclick="correct()">Frame the local orphanage.</p>
+                        <input type="radio" name="ans6" id="B6" value="-" onclick="correct()">Flee the state.</p>
+                        <input type="radio" name="ans6" id="C6" value="-" onclick="correct()">Set up a pyramid scheme and make the participants do it.</p>
+                        <input type="radio" name="ans6" id="D6"  value="-" onclick="correct()">Do nothing.</p>
+                    </label>
+                </ul>
+            </div>
+
+            <div id="Q7" class="questions">Question 7: How commit arson and get away with it?
+                <ul id="answers">
+                    <label for="ans7" id="A1">
+                        <input type="radio" name="ans7" id="A7" value="-" onclick="correct()">Frame the local orphanage.</p>
+                        <input type="radio" name="ans7" id="B7" value="-" onclick="correct()">Flee the state.</p>
+                        <input type="radio" name="ans7" id="C7" value="-" onclick="correct()">Set up a pyramid scheme and make the participants do it.</p>
+                        <input type="radio" name="ans7" id="D7" value="-" onclick="correct()">Do nothing.</p>
+                    </label>
+                </ul>
+            </div>
+
+            <div id="Q8" class="questions">Question 8: How commit arson and get away with it?
+                <ul id="answers">
+                    <label for="ans8" id="A1">
+                        <input type="radio" name="ans8" id="A8" value="-" onclick="correct()">Frame the local orphanage.</p>
+                        <input type="radio" name="ans8" id="B8" value="-" onclick="correct()">Flee the state.</p>
+                        <input type="radio" name="ans8" id="C8" value="-" onclick="correct()">Set up a pyramid scheme and make the participants do it.</p>
+                        <input type="radio" name="ans8" id="D8" value="-" onclick="correct()">Do nothing.</p>
+                    </label>
+                </ul>
+            </div>
+
+            <div id="Q9" class="questions">Question 9: Gae?
+                <ul id="answers">
+                    <label for="ans9" id="A1">
+                        <input type="radio" name="ans9" id="A9" value="-">Yes</p>
+                        <input type="radio" name="ans9" id="B9" value="-">Yes</p>
+                        <input type="radio" name="ans9" id="C9" value="-" onclick="correct()">Webtoon</p>
+                        <input type="radio" name="ans9" id="D9" value="-" onclick="wrong()">Yes(n't)</p>
+                    </label>
+                </ul>
+            </div>
+
+            <div id="Q10" class="questions">Question 10: How commit arson and get away with it?
+                <ul id="answers">
+                    <label for="ans10" id="A1">
+                        <input type="radio" name="ans10" id="A10" value="1" onclick="correct()">Frame the local orphanage.</p>
+                        <input type="radio" name="ans10" id="B10" value="0">Flee the state.</p>
+                        <input type="radio" name="ans10" id="C10" value="0">Set up a pyramid scheme and make the participants do it.</p>
+                        <input type="radio" name="ans10" id="D10" value="0">Do nothing.</p>
+                    </label>
+                </ul>
+            </div>
+
+            <input type="button" value="Submit Test" id="enter" onclick="showScore()">
+        </div>
+
+    </fieldset>
+</form>
+
+</body>
+
+<script>
+
+var score = 0
+function correct(){
+    score++
+}
+function wrong(){
+    score = -10000
+}
+
+function showScore(){
+    if (score<=-10000){}}
